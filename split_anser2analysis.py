@@ -135,8 +135,8 @@ if __name__ == '__main__':
         sys.exit(0)
     if len(args) < 3:
         print """
-            python crawl_7cai_image.py 高中 数学 选择题
-            python crawl_7cai_image.py 高中 数学
+            python split_anser2analysis.py 高中 数学 选择题
+            python split_anser2analysis.py 高中 数学
         """
         sys.exit(0)
     if len(args) >= 3:
